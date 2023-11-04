@@ -5,7 +5,7 @@ import {  faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
-    <div className=" fixed z-10 w-full bg-black text-white">
+    <div className=" md:fixed z-10 w-screen bg-black text-white  ">
       
       <div className="md:flex justify-between items-center py-4 md:px-12">
         
