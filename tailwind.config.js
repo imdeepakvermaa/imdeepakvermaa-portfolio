@@ -8,7 +8,7 @@ module.exports = {
     extend: {},
     fontFamily:{
       head: ['Odor Mean Chey', 'serif'],
-
+      about: ['Handlee', 'cursive'],
     }
   },
   plugins: [],
