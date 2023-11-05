@@ -9,7 +9,7 @@ const About = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 40) {
+      if (window.scrollY > 5) {
         setIsRotated(true);
       } else {
         setIsRotated(false);
@@ -28,7 +28,7 @@ const About = () => {
       <div className="md:pt-10 flex flex-col justify-center items-center text-white">
         <FontAwesomeIcon
           icon={faCircleDown}
-          className={`text-6xl md:text-8xl mt-10 mb-6 rounded-full text-black bg-orange-500 border-4 border-orange-500 transform transition-transform ${
+          className={`text-6xl md:text-8xl mt-10 mb-6 rounded-full text-black bg-orange-500 border-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 transform transition-transform ${
             isRotated ? "rotate-180" : "rotate-0"
           }`}
         />
@@ -40,8 +40,8 @@ const About = () => {
         <div className="w-full md:w-3/4 mt-2">
           <img src={heroimage} alt="hero" className="w-full h-auto" />
         </div>
-        <span className="font-bold text-4xl md:text-6xl pt-2 pb-2"> ? </span>
-        <span className="w-11/12 pt-10 pb-10 md:w-2/4 font-about text-lg md:text-xl text-center leading-relaxed font-bold tracking-widest mt-2">
+        <span className="font-bold text-4xl md:text-6xl pt-2 md:pb-2"> ? </span>
+        <span className="w-11/12 md:pt-10 pb-10 md:w-2/4 font-about text-lg md:text-xl text-center leading-relaxed font-bold tracking-widest mt-2">
           Hey! I'm{" "}
           <a
             href="https://www.linkedin.com/in/deepak-verma-2229651a0/"
@@ -52,7 +52,7 @@ const About = () => {
             Deepak Verma
           </a>
           , a passionate frontend developer👨‍💻, currently exploring the endless
-          possibilities of full-stack development.
+          possibilities of full-stack development.I've honed my skills by tackling a wide range of Data Structures and Algorithms challenges on platforms like <a href="https://leetcode.com/imdeepakvermaa/" target="_blank " className="font-bold text-yellow-500 hover:underline">LeetCode</a> and  <a href="https://auth.geeksforgeeks.org/user/imdeepakvermaa/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" target="_blank " className="font-bold text-yellow-500 hover:underline">GeeksForGeeks</a>
           <br />
           <br />→ Currently in my fourth year pursuing a Bachelor of Technology
           (B.Tech) degree🎓 at{" "}

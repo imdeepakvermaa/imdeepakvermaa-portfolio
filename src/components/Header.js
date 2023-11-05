@@ -27,7 +27,7 @@ const Header = () => {
         <div className="px-4 md:px-0">
           <div className="flex items-center rounded-2xl">
             
-            <button className="w-32 md:w-36 h-10 bg-orange-600 text-white font-bold rounded-2xl">
+            <button className="w-32 md:w-36 h-10 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-black font-bold rounded-2xl">
             <FontAwesomeIcon icon={faDownload} className='mr-2'/>
               My Resume
             </button>
