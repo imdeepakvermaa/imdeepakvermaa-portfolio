@@ -14,7 +14,7 @@ const Projects = () => {
         <span className="text-orange-500 font-bold "> Knowledge </span>into
         Impact
         <h3 className=" text-white text-lg font-medium md:text-3xl md:pl-2">
-          my projects 🚀
+        My projects 🚀
         </h3>
       </div>
 
@@ -22,27 +22,27 @@ const Projects = () => {
         <div className="">
           <div className="md:w-full flex justify-center items-center flex-wrap gap-3 flex-row  md:gap-6">
             <img
-              className=" h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px]"
+              className=" h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px] hover:cursor-pointer hover:animate-pulse"
               src={img4}
               alt=""
             />
             <img
-              className=" h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px]"
+              className=" h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px] hover:cursor-pointer hover:animate-pulse"
               src={img5}
               alt=""
             />
             <img
-              className="  h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px]"
+              className="  h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px] hover:cursor-pointer hover:animate-pulse"
               src={img1}
               alt=""
             />
             <img
-              className=" h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px]"
+              className=" h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px] hover:cursor-pointer hover:animate-pulse"
               src={img2}
               alt=""
             />
             <img
-              className=" h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px]"
+              className=" h-[30px] rounded-lg md:mt-6 mt-2  md:h-[180px] hover:cursor-pointer hover:animate-pulse"
               src={img3}
               alt=""
             />
@@ -50,10 +50,10 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="text-white  flex justify-center items-center gap-8 ">
+      <div className="text-white  flex justify-center items-center gap-8 hover:cursor-pointer  ">
         <FontAwesomeIcon className="text-7xl" icon={faArrowTrendDown} />
-        <div className="">
-          <h3 className="mt-[90px] font-bold text-2xl bg-black ">See All my work</h3>
+        <div className="mt-[90px] font-bold text-2xl hover:cursor-pointer">
+          <button className="hover:animate-pulse">See All my work</button>
         </div>
       </div>
     </div>

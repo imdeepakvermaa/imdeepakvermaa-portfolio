@@ -20,7 +20,7 @@ const Header = () => {
             <li className="ml-4 text-lg hover:underline decoration-orange-500 cursor-pointer ">About</li>
             <li className="text-lg hover:underline decoration-orange-500 cursor-pointer">Skills</li>
             <li className="text-lg hover:underline decoration-orange-500 cursor-pointer">Projects</li>
-            <li className="text-lg hover:underline decoration-orange-500 cursor-pointer">Certifications</li>
+            <li className="text-lg hover:underline decoration-orange-500 cursor-pointer">Contact</li>
           </ul>
         </div>
 
