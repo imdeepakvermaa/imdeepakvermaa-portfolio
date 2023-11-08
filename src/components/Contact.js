@@ -1,23 +1,25 @@
 import React from "react";
-import SocialLogo from "./SocialLogo";
+// import SocialLogo from "./SocialLogo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-
 const Contact = () => {
   return (
     <div className="md:h-[920px] bg-gray-600  md:pl-10">
-      <div className="flex-col flex justify-center items-center   pt-8">
-        <h2 className=" text-xl font-medium text-pink-400 md:text-5xl">Let's Connect and Create Something Great Together !</h2>
-        <div className="mt-4">
-        <button className="w-32 md:w-36 h-10 bg-gradient-to-r from-red-500 to-red-700 hover:from-pink-400 hover:to-yellow-500 text-black font-bold rounded-2xl">
-            <FontAwesomeIcon icon={faDownload} className='mr-2'/>
-              My Resume
-            </button>
-        </div>
+      <div className="font-bold text-white  text-4xl  md:text-7xl pt-8">
+        Let's <span className="text-yellow-400 font-bold "> Connect </span> and{" "}
+        <span className="text-yellow-400 font-bold "> Create </span>Something{" "}
+        <span className="text-yellow-400 font-bold "> Great </span>
+        Together!
       </div>
-      
+      <div className="mt-8">
+        <button className="w-32 md:w-36 h-10 bg-gradient-to-r from-red-500 to-red-700 hover:from-pink-400 hover:to-yellow-500 text-black font-bold rounded-2xl">
+          <FontAwesomeIcon icon={faDownload} className="mr-2" />
+          My Resume
+        </button>
+      </div>
+
       <div className="flex items-center justify-center mt-[120px]">
-        <div className="font-bold text-gray-900  text-3xl  md:text-5xl pt-8">
+        <div className="font-bold text-orange-400  text-3xl  md:text-5xl pt-8">
           Feel free to contact me through
           <span className="text-yellow-300 font-bold ">
             {" "}
@@ -61,10 +63,9 @@ const Contact = () => {
               Send Message
             </button>
           </div>
-          
         </div>
-        
       </div>
+      
     </div>
   );
 };
