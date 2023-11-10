@@ -33,8 +33,8 @@ const About = () => {
           }`}
         />
 
-        <h1 className="font-head text-3xl md:text-4xl text-center mb-4">
-          Who is Deepak Verma
+        <h1 className="font-name text-3xl md:text-4xl text-center mb-4">
+          About Me
         </h1>
 
         <div className="w-full md:w-3/4 mt-2">

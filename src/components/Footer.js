@@ -4,11 +4,11 @@ import footerimg from "../images/indianfooter.JPG";
 
 const Footer = () => {
   return (
-    <div className="h-[1000px] md:h-[400px]">
+    <div className="h-[950px] md:h-[350px]">
       <div className="font-bold text-black  text-xl  md:text-4xl flex justify-center items-center md:pt-8">
-        <h1>ThankYou 🙏 for visiting my portfolio !</h1>
+        <h1>ThankYou 🙏 for visiting!</h1>
       </div>
-      <div className="md:flex md:flex-row flex flex-col justify-center items-center md:justify-between md:items-center md:plf-[200px] pl-[100px] md:pr-[200px] pr-[200px] gap-4 md:pt-[80px] pt-[20px]">
+      <div className="md:flex md:flex-row flex flex-col justify-center items-center md:justify-between md:items-center md:plf-[200px] pl-[150px] md:pr-[200px] pr-[200px] gap-4 md:pt-[40px] pt-[20px]">
         <div className="">
           <h4 className="md:text-medium text-sm font-bold text-gray-600">
             No ©️ copyright issues.

@@ -10,8 +10,8 @@ const Header = () => {
       <div className="md:flex justify-between items-center py-4 md:px-12">
         
         <div className="px-4 md:px-1">
-          <h1 className="text-2xl font-head cursor-pointer">
-            Imdeepakverma
+          <h1 className="text-xl font-name text-red-500 cursor-pointer">
+            imdeepakverma
           </h1>
         </div>
 

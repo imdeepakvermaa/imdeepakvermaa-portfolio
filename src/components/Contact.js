@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 const Contact = () => {
   return (
-    <div className="md:h-[920px] bg-gray-600  md:pl-10">
+    <div className="md:h-[800px] bg-gray-600  md:pl-10">
       <div className="font-bold text-white  text-4xl  md:text-7xl pt-8">
         Let's <span className="text-yellow-400 font-bold "> Connect </span> and{" "}
         <span className="text-yellow-400 font-bold "> Create </span>Something{" "}
@@ -18,7 +18,7 @@ const Contact = () => {
         </button>
       </div>
 
-      <div className="flex items-center justify-center mt-[120px]">
+      <div className="flex items-center justify-center mt-[50px]">
         <div className="font-bold text-orange-400  text-3xl  md:text-5xl pt-8">
           Feel free to contact me through
           <span className="text-yellow-300 font-bold ">
