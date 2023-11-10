@@ -1,39 +1,67 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faDownload } from '@fortawesome/free-solid-svg-icons';
-
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
+
+  const [nav,setNav] = useState(false);
+
+  const links = [
+    {
+      id: 1,
+      link: "home",
+    },
+    {
+      id: 2,
+      link: "about",
+    },
+    {
+      id: 3,
+      link: "portfolio",
+    },
+    {
+      id: 4,
+      link: "experience",
+    },
+    {
+      id: 5,
+      link: "contact",
+    },
+  ];
+
   return (
-    <div className=" md:fixed z-10 w-screen bg-black text-white  ">
-      
-      <div className="md:flex justify-between items-center py-4 md:px-12">
-        
-        <div className="px-4 md:px-1">
-          <h1 className="text-xl font-name text-red-500 cursor-pointer">
-            imdeepakverma
-          </h1>
-        </div>
-
-        <div className="flex items-center">
-          <ul className="md:flex justify-center font-bold space-x-4 md:space-x-8">
-            <li className="ml-4 text-lg hover:underline decoration-orange-500 cursor-pointer ">About</li>
-            <li className="text-lg hover:underline decoration-orange-500 cursor-pointer">Skills</li>
-            <li className="text-lg hover:underline decoration-orange-500 cursor-pointer">Projects</li>
-            <li className="text-lg hover:underline decoration-orange-500 cursor-pointer">Contact</li>
-          </ul>
-        </div>
-
-        <div className="px-4 md:px-0">
-          <div className="flex items-center rounded-2xl">
-            
-            <button className="w-32 md:w-36 h-10 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-black font-bold rounded-2xl">
-            <FontAwesomeIcon icon={faDownload} className='mr-2'/>
-              My Resume
-            </button>
-          </div>
-        </div>
+    <div className="flex justify-between items-center w-full px-4 h-20 text-white bg-black fixed">
+      <div>
+        <h1 className="text-3xl font-name ml-2">Deepak</h1>
       </div>
+
+      <ul className="hidden md:flex">
+        {links.map(({ id, link }) => (
+          <li
+            key={id}
+            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+          >
+            {link}
+          </li>
+        ))}
+      </ul>
+
+
+      <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+        {nav ? <FaTimes size={30}/> : <FaBars size={30}/>}
+        
+      </div>
+
+      {nav && <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 ">
+      {links.map(({ id, link }) => (
+          <li
+            key={id}
+            className="px-4 cursor-pointer capitalize py-6 text-4xl"
+          >
+            {link}
+          </li>
+        ))}
+
+      </ul>}
     </div>
   );
 };
