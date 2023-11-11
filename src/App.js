@@ -1,5 +1,5 @@
 // import About from "./components/About";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 // import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -13,18 +13,16 @@ import SocialLinks from "./components/SocialLinks";
 function App() {
   return (
     <div>
-      <Header/>
-      <Home/>
-      
-      <About/>
-      <Portfolio/>
-      <Experience/>
-
-      <SocialLinks/>
-       {/*
+      <Header />
+      <Home />
+      <About />
+      <Portfolio />
+      <Experience /> 
+      <Contact />
+      <SocialLinks />
+      {/*
       <Skills/>
       <Projects/>
-      <Contact/>
       <Footer/>  */}
     </div>
   );
