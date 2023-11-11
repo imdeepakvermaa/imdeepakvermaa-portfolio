@@ -26,7 +26,7 @@ const Experience = () => {
       id: 3,
       src: python,
       title: "PYTHON",
-      style: "shadow-blue-500",
+      style: "shadow-yellow-500",
     },
     {
       id: 4,
