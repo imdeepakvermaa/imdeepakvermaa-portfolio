@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <div
       name="home"
-      className=" h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white "
+      className=" h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white md:pt-0 pt-52"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-8 md:flex-row">
         <div className="flex flex-col justify-center h-full gap-4">
-          <h2 className="flex-xl sm:text-7xl font-bold textwhite">
+          <h2 className="flex-xl sm:text-5xl font-bold textwhite">
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500  max-w-md">

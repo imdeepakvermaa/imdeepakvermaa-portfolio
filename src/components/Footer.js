@@ -3,7 +3,7 @@ import SocialLogo from "./SocialLogo";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-gradient-to-b from-gray-800 to-black p-4 text-gray-300 md:pb-0 pb-56">
+    <div className="w-full bg-gradient-to-b from-gray-800 to-black p-4 text-gray-300 md:pb-0 pb-56 md:pt-0 pt-72">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
         <div className="font-bold text-md md:text-4xl flex justify-center items-center ">
           <h1>ThankYou for visiting!</h1>
