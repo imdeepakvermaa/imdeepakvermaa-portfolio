@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center w-full px-4 h-20 text-white bg-black fixed">
       <div>
-        <h1 className="text-3xl font-name ml-2">Deepak</h1>
+        <h1 className="text-2xl font-name ml-2 hover:cursor-pointer">Deepak .</h1>
       </div>
 
       <ul className="hidden md:flex">
