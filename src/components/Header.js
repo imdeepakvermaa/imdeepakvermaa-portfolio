@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import {Link} from 'react-scroll';
 
 const Header = () => {
 
@@ -16,11 +17,11 @@ const Header = () => {
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "skills",
     },
     {
       id: 4,
-      link: "experience",
+      link: "projects",
     },
     {
       id: 5,
@@ -40,7 +41,7 @@ const Header = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            {link}
+            <Link to={link} smooth duration={400}>{link}</Link>
           </li>
         ))}
       </ul>
@@ -57,7 +58,7 @@ const Header = () => {
             key={id}
             className="px-4 cursor-pointer capitalize py-6 text-4xl"
           >
-            {link}
+            <Link onClick={() => setNav(!nav)} to={link} smooth duration={400}>{link}</Link>
           </li>
         ))}
 
