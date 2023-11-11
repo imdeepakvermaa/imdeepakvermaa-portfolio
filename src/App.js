@@ -2,6 +2,7 @@
 // import Contact from "./components/Contact";
 // import Footer from "./components/Footer";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
@@ -17,6 +18,7 @@ function App() {
       
       <About/>
       <Portfolio/>
+      <Experience/>
 
       <SocialLinks/>
        {/*
