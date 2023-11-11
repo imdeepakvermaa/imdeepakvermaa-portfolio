@@ -12,11 +12,12 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Experience />
+
       <Portfolio />
-      <Experience /> 
       <Contact />
       <SocialLinks />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

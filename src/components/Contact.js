@@ -9,9 +9,9 @@ const Contact = () => {
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
         <div className="pb-4">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            You can get in touch with me via mail or instagram or linkedIn.
+            You can get in touch with me via <span className="text-red-500 hover:line-through">mail</span> or <span className="text-orange-500 hover:line-through">instagram</span> or <span className="text-blue-400 hover:line-through">linkedIn</span>.
           </p>
-          <p className="py-8">Submit the form below to get in touch with me.</p>
+          <p className="py-8">OR <span className="text-yellow-500 font-bold">Submit</span> the form below to get in touch with me.</p>
         </div>
 
         <div className="flex justify-center items-center">
