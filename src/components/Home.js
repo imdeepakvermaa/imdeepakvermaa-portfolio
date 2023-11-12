@@ -14,7 +14,7 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500  max-w-md">
-          Hello! I'm Deepak Verma, a dedicated frontend developer👨‍💻 with a passion for creating seamless user experiences. Currently, I'm on an exciting journey exploring the endless possibilities of full-stack development. With a solid foundation in HTML, CSS, JavaScript, and React. I bring creativity and attention to detail to every project. Let's build something extraordinary together!"
+          Hello! I'm Deepak Verma, a dedicated frontend developer👨‍💻 with a passion for creating seamless user experiences. Currently, I'm on an exciting journey exploring the endless possibilities of full-stack development. With a solid foundation in HTML, CSS, JavaScript, and React. I bring creativity and attention to detail to every project. Let's build something extraordinary together!
           </p>
           <div>
             <Link to="projects" smooth duration={500} className="group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">

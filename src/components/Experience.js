@@ -7,6 +7,7 @@ import react from "../images/react.png";
 import git from "../images/git.png";
 import github from "../images/github.png";
 import mysql from "../images/mysql.png";
+import tailwindcss from "../images/tailwindcss.png";
 
 const Experience = () => {
   const techs = [
@@ -38,13 +39,13 @@ const Experience = () => {
       id: 5,
       src: react,
       title: "REACT",
-      style: "shadow-blue-400",
+      style: "shadow-blue-300",
     },
     {
       id: 6,
       src: mysql,
       title: "MYSQL",
-      style: "shadow-blue-300",
+      style: "shadow-orange-300",
     },
     {
       id: 7,
@@ -57,6 +58,12 @@ const Experience = () => {
       src: github,
       title: "GITHUB",
       style: "shadow-gray-500",
+    },
+    {
+      id: 9,
+      src: tailwindcss,
+      title: "TAILWIND CSS",
+      style: "shadow-blue-400",
     },
   ];
 
