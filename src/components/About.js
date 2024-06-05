@@ -11,7 +11,7 @@ const About = () => {
           </p>
         </div>
         <p className="md:text-xl mt-1">
-          Hey there! I'm Deepak Verma, a passionate data science enthusiast👨‍💻, dedicated to transforming raw data into valuable insights. My journey includes mastering problem-solving challenges on platforms like <span className="text-orange-500 font-bold hover:underline"><a href="https://leetcode.com/imdeepakvermaa/" target="_blank">Leetcode</a></span> and <span className="text-green-400 font-bold hover:underline"><a href="https://auth.geeksforgeeks.org/user/imdeepakvermaa/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" target="_blank">GeeksForGeeks</a></span>.
+          Hey there! I'm Deepak Verma, a passionate data science enthusiast👨‍💻, dedicated to transforming raw data into valuable insights. My journey includes mastering problem-solving challenges on platforms like <span className="text-orange-500 font-bold hover:underline"><a href="https://leetcode.com/imdeepakvermaa/" target=" _blank">Leetcode</a></span> and <span className="text-green-400 font-bold hover:underline"><a href="https://auth.geeksforgeeks.org/user/imdeepakvermaa/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" target=" _blank">GeeksForGeeks</a></span>.
         </p>
         
         <br />
