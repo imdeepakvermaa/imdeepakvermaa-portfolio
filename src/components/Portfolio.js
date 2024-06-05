@@ -1,35 +1,35 @@
 import React from "react";
-import netflix from "../images/netflix.PNG";
-import amazon from "../images/Amazon.png";
-import duo from "../images/duoo.png";
-import food from "../images/foodorder.PNG";
-import sidcup from "../images/sidcupgolf.png";
-import news from "../images/newsify.png";
+import Mckinsey from "../images/Mckinsey.png";
+import retail_python from "../images/retail_python_data_analysis.png";
+import superstore from "../images/super_store_dashboard.png";
+import vrindastore from "../images/vrinda_store_sales_dashboard.png";
+import hotel from "../images/hotel_analysis.png";
+import pizzasales from "../images/pizza_sales_case_study.png";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: netflix,
+      src: Mckinsey,
     },
     {
       id: 2,
-      src: amazon,
+      src: retail_python,
     },
     {
       id: 3,
-      src: duo,
+      src: superstore,
     },
     {
       id: 4,
-      src: food,
+      src: vrindastore,
     },
     {
       id: 5,
-      src: sidcup,
+      src: hotel,
     },
     {
       id: 6,
-      src: news,
+      src: pizzasales,
     },
   ];
 
@@ -41,16 +41,12 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-          Crafted with <span className="text-red-500">Love</span>.
+            Crafted with <span className="text-red-500">Love</span>.
           </p>
           <p className="py-6">Check out some of my work right here.</p>
         </div>
-        <div
-            
-            className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
-          >
-        {portfolios.map(({ id, src }) => (
-          
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          {portfolios.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -58,17 +54,13 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
 
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  Project Link
                 </button>
               </div>
             </div>
-          
-        ))}
+          ))}
         </div>
       </div>
     </div>

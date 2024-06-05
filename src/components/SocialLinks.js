@@ -11,7 +11,7 @@ const SocialLinks = () => {
           Linkedin <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/deepak-verma-2229651a0/",
+      href: "https://www.linkedin.com/in/imdeepakvermaa/",
       style: "rounded-tr-md",
     },
     {
@@ -39,7 +39,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "https://www.linkedin.com/in/imdeepakvermaa/overlay/1716369634432/single-media-viewer/?profileId=ACoAAC8gtPoB3CXw1VuHkoRfnXq_mVUzxRWSDSA",
 
       style: "rounded-br-md",
       download: true,
