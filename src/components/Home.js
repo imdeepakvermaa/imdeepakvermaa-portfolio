@@ -10,7 +10,7 @@ const Home = () => {
       className=" h-full w-full bg-gradient-to-b from-black via-black to-gray-800 text-white md:pt-0 gap-11 "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-8  md:flex-row">
-        <div className="flex flex-col justify-center h-full gap-4 ">
+        <div className="flex flex-col justify-center h-full gap-4 mt-40 ">
           <p className="text-gray-400  max-w-md font-bold text-xl">
           Heya, I'm Deepak Verma - a data science Enthuthiast from India.
 Data nerd. Learning. Creativity.
@@ -27,11 +27,7 @@ Data nerd. Learning. Creativity.
         </div>
 
         <div className="">
-          <img
-            src={HeroImage}
-            alt="my-profile"
-            className="rounded-2xl mx-auto w-2/3 md:2/3 m-24 "
-          />
+          
         </div>
       </div>
     </div>
